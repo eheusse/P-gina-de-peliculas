@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilologin.css">
+
+</head>
+<body onload="AddCarouselButtons(); CheckSizeAttributes(); AddCards(); MakeJumbotron(); CheckCards(); ResizeHeader();" onscroll="ScrollFunction();" onresize="CheckSizeAttributes(); CheckCards(); MakeJumbotron(); ResizeHeader();">
+        <div class="content">
+            <div class="header">
+                <div class="brand">
+                    <h1 class="red">Eusse</h1>
+                    <h1 class="white">Movies</h1>
+                </div>
+                <div class="main-nav">
+                    <a href="../Inicio/index.html" class="button-container">
+                        <h2>Inicio</h2>
+                    </a>
+                    <a href="../Form/form.html" class="button-container">
+                        <h2>Registrarse</h2>
+                    </a>
+                    
+                    </a>
+                    
+                </div>
+                <div class="right-nav">
+                    <div class="button-container login">
+                        <h2>Iniciar Sesión</h2>
+                        <a href="../Login/index.html" class="button-container"></a>
+                    </div>
+                </div>
+        </div>
+
+
+        <div id="vertical-flip" class="card">
+            <div class="flip">
+             <div class="front">
+              <div class="logo">
+                <img src="../Login/imagenes/eussemovies2.png" alt="Netlflix">
+              </div>
+            </div>
+           
+             <div class="back">
+              <form>
+               <div class="box-input">
+                <input type="email" name="email" placeholder="email" required/>
+                <input type="password" name="password" placeholder="password" required/>
+                <button type="submit">Entrar</button>
+              </form>
+        </div>
+
+        
+        <script src="scriptlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+        <div class="content">
+            <div class="header">
+                <div class="brand">
+                    <h1 class="red">Eusse</h1>
+                    <h1 class="white">Movies</h1>
+                </div>
+                <div class="main-nav">
+                    <a href="../Inicio/index.html" class="button-container">
+                        <h2>Inicio</h2>
+                    </a>
+                    <a href="../Form/form.html" class="button-container">
+                        <h2>Registrarse</h2>
+                    </a>
+                    
+                    </a>
+                    
+                </div>
+                <div class="right-nav">
+                    <div class="button-container login">
+                        <h2>Iniciar Sesión</h2>
+                        <a href="../Login/index.html" class="button-container"></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <div id="steps">
+            <div id="outer-container">
+            <!-- SignUp Form -->
+            <form id="signup" action="#">
+              <div id="inner-container">
+                <h3>Sign Up</h3>
+                
+                <input id="firstName" type="text" placeholder="Nombre" /><br />
+                <input id="lastName" type="text" placeholder="Apellido"/><br />
+                <input id="phone" type="text" placeholder="Teléfono"/><br />
+                <select id="select-country">
+                  <option value="" disabled selected>Tu país</option>
+                  <option value="ARG">Argentina</option>
+                  <option value="ABW">Aruba</option>
+                  <option value="BOL">Bolivia</option>
+                  <option value="BRA">Brazil</option>
+                  <option value="CHL">Chile</option>
+                  <option value="COL">Colombia</option>
+                  <option value="CRI">Costa Rica</option>
+                  <option value="CUB">Cuba</option>
+                  <option value="DMA">Dominica</option>
+                  <option value="DOM">Republica Domincana</option>
+                  <option value="ECU">Ecuador</option>
+                  <option value="SLV">El Salvador</option>
+                  <option value="GNQ">Guinea Ecuatorial</option>
+                  <option value="GTM">Guatemala</option>
+                  <option value="HND">Honduras</option>
+                  <option value="MEX">México</option>
+                  <option value="PAN">Panama</option>
+                  <option value="PRY">Paraguay</option>
+                  <option value="PER">Peru</option>
+                  <option value="PRI">Puerto Rico</option>
+                  <option value="URY">Uruguay</option>
+                  <option value="VEN">Venezuela</option>
+                  
+               </select><br />
+                <input id="select-city" type="text" placeholder="Tu ciudad"/>
+                <input id="address" type="text" placeholder="Dirección"/><br />
+                <input id="select-date" type="date" /><br />
+                
+                <input id="signup-btn" type="submit" />
+            </div>
+            </form>
+          
+            <!-- Profile Card -->
+            <div id="card">
+             <div id="inner-container">
+                  <h3 id="title">Hola Bienvenid@</h3>
+                  <img src="imgs/avatar2.png" alt="" />
+                  <h4 id="userName">Usama Tahir</h4>
+                  <p><strong>País:</strong> <span id="country">unknown</span></p>
+                  <p><strong>Ciudad:</strong> <span id="city">unknown</span></p>
+                  <p><strong>DOB:</strong> <span id="dob">238723</span></p>
+                  <form id="delete-account" action="#">
+                     <input id="delete-btn" type="submit" value="Borrar Cuenta"/>
+                  </form>
+             </div>
+            </div>
+           </div>
+        </div>
+    
+    
+        
+    <script src="scriptform.js"></script>
+</body>
+</html>

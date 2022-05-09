@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="cuarta.css">
+</head>
+
+<body onload="AddCarouselButtons(); CheckSizeAttributes(); AddCards(); MakeJumbotron(); CheckCards(); ResizeHeader();" onscroll="ScrollFunction();" onresize="CheckSizeAttributes(); CheckCards(); MakeJumbotron(); ResizeHeader();">
+    <div class="content">
+        <div class="header">
+            <div class="brand">
+                <h1 class="red">Eusse</h1>
+                <h1 class="white">Movies</h1>
+            </div>
+            <div class="main-nav">
+                <a href="../Inicio/index.html" class="button-container">
+                    <h2>Inicio</h2>
+                </a>
+                <a href="../Form/form.html" class="button-container">
+                    <h2>Registrarse</h2>
+                </a>
+                
+                </a>
+                
+            </div>
+            <div class="right-nav">
+                <div class="button-container login">
+                    <h2>Iniciar Sesión</h2>
+                    <a href="../Login/index.html" class="button-container"></a>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="image-container">
+                <div class="left-side">
+                    <h1>Harry Potter</h1>
+                    
+                    <p>Se centra en la lucha entre Harry Potter y el malvado mago Lord Voldemort, quien asesinó a los padres de Harry en su afán de conquistar el mundo mágico. </p>
+                    <div class="button-section">
+                        <div class="watch" >
+                            <h3>Play</h3>
+                            <svg fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="content-area" id="trending">
+                <h2 class="content-title">Peliculas recomendadas</h2>
+                <div class="card-carousel">
+
+                </div>
+            </div>
+            
+            
+            <div class="content-area" id="movies">
+                <h2 class="content-title">Acción</h2>
+                <div class="card-carousel">
+
+                </div>
+            </div>
+            <div class="content-area">
+                <h2 class="content-title">Romance</h2>
+                <div class="card-carousel">
+
+                </div>
+            </div>
+            
+        </div>
+        
+
+    <div class="watch-later-modal">
+        <h3>Added <a href="#" class="movie"></a> to your <a href="#" class="playlist">WATCH LATER</a> playlist!</h3>
+        <div class="side-buttons">
+            <svg fill="currentColor" viewBox="0 0 16 16" onclick="alert('Removed item from the Watch Later playlist'); ToggleWatchLater('', false);">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" />
+                <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" />
+            </svg>
+            <svg fill="currentColor" viewBox="0 0 16 16" onclick="ToggleWatchLater('', false);">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+
+        </div>
+    </div>
+
+    
+    
+        
+    
+
+    <script src="script4.js"></script>
+</body>
+</html>
